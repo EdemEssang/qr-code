@@ -1,8 +1,25 @@
 body{
+   /* background-color:   hsl(0, 0%, 100%); */
+   /* background-color:  hsl(212, 45%, 89%); */
+  /* background-color:   hsl(220, 15%, 55%); */
+   /* background-color:  hsl(218, 44%, 22%); */
+
+   background-color: #7bb7fd;
+
     text-align: center;
 }
 
 .container{
+    background-color: red;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
+}
+
+.qr-image{
+    width: 100%;
+    border-radius:20px;
 }
