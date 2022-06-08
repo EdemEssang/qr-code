@@ -1,25 +1,104 @@
 body{
-   /* background-color:   hsl(0, 0%, 100%); */
-   /* background-color:  hsl(212, 45%, 89%); */
-  /* background-color:   hsl(220, 15%, 55%); */
-   /* background-color:  hsl(218, 44%, 22%); */
-
+   background-color:  hsl(212, 45%, 89%);
    background-color: #7bb7fd;
-
     text-align: center;
 }
 
 .container{
-    background-color: red;
+    background-color:hsl(212, 45%, 89%);
     width: 80%;
     margin: 0 auto;
     margin-top: 60px;
     display: flex;
     flex-direction: column;
-    border-radius: 10px;
+   padding-bottom: 40px;
+   border-radius: 20px;
+    
 }
 
 .qr-image{
+
     width: 100%;
     border-radius:20px;
+ 
+}
+.img-div{
+    width: 90%;
+    padding-top: 20px;
+    margin: 0 auto;
+   
+    
+}
+
+.first-paragraph, .second-paragraph{
+   
+    font-family: 'Outfit', sans-serif;
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+
+.first-paragraph{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.second-paragraph{
+    font-weight: 800;
+    width: 70%;
+font-size: 15px;
+color: hsl(220, 15%, 55%);
+ 
+
+
+}
+
+
+/*desktop*/
+@media only screen and (min-width: 800px) {
+    body{
+        background-color:  hsl(212, 45%, 89%);
+        background-color: #7bb7fd;
+         text-align: center;
+     }
+     
+     .container{
+         background-color:hsl(212, 45%, 89%);
+         width: 30%;
+         margin: 0 auto;
+         margin-top: 80px;
+         display: flex;
+         flex-direction: column;
+         padding-top: 20px;
+        padding-bottom: 60px;
+        border-radius: 20px;   
+     }
+     
+     .qr-image{
+         width: 90%;
+         border-radius:20px;
+     }
+     .img-div{
+         width:100%;
+         margin: 0 auto;
+     }
+     
+     .first-paragraph, .second-paragraph{
+         font-family: 'Outfit', sans-serif;
+         width: 90%;
+         margin: 0 auto;
+         padding-top: 20px;
+     }
+     
+     .first-paragraph{
+         font-size: 20px;
+         font-weight: 900;
+     }
+     
+     .second-paragraph{
+         font-weight: 800;
+         width: 70%;
+            font-size: 15px;
+            color: hsl(220, 15%, 55%);
+     }
 }
